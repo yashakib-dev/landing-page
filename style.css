@@ -13,6 +13,7 @@
     margin: 2rem;
     padding: 1.5rem;
     border-radius: 2rem;
+    margin-top: 4rem;
 }
 
 ul{
@@ -24,7 +25,61 @@ ul{
 .header a{
     color: white;
     text-decoration: none;
-    margin: 5px;
+    margin: 5px;   
+    
+}
+.first{
+    text-align: center;
+    background-color: white ;
+    margin-top: 6rem;
+    font-size: larger;
+
+}
+.first h2{
+    color: gray;
+    font-weight: 500;
+
+}
+.first button{
+    color: white;
+    background-color: #1E40AF;
+    padding: 14px 36px;
+    margin: 24px;
+    border-radius: 36px;
+    font-size: xx-large;
     
     
+}
+button:hover {
+  background-color:#3f6bcb ;
+  cursor:grab;
+}
+
+
+.second{
+background-color:rgb(237, 236, 236);
+margin-top: 6rem;
+ display: flex;
+  justify-content: space-between;
+  padding: 10%;
+  
+}
+
+.card {
+  border: 2px solid #ccc;
+  padding: 24px;
+  width: 30%;
+  text-align: center;
+  border-radius: 12px;
+  box-shadow: 10px 20px 30px 1px;
+ 
+  
+}
+
+.footer{    
+    background-color: #1f3a5f;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+  margin-bottom: 4rem;
 }
