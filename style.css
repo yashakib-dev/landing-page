@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; /*what is box-sizing */
+  font-family: Arial, sans-serif;
+}
+
+.header{
+    display: flex; 
+    justify-content: space-between;
+    background-color: #1f3a5f;
+    color: white;
+    margin: 2rem;
+    padding: 1.5rem;
+    border-radius: 2rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+
+}
+
+.header a{
+    color: white;
+    text-decoration: none;
+    margin: 5px;
+    
+    
+}
