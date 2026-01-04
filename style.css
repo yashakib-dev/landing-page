@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box; /*what is box-sizing */
+  box-sizing: border-box; 
   font-family: Arial, sans-serif;
 }
 
@@ -11,7 +11,7 @@
     background-color: #1f3a5f;
     color: white;
     margin: 2rem;
-    padding: 1.5rem;
+    padding: 2rem;
     border-radius: 2rem;
     margin-top: 4rem;
 }
@@ -25,7 +25,8 @@ ul{
 .header a{
     color: white;
     text-decoration: none;
-    margin: 5px;   
+    margin: 10px;
+    font-size: large;   
     
 }
 .first{
@@ -47,12 +48,14 @@ ul{
     margin: 24px;
     border-radius: 36px;
     font-size: xx-large;
-    
-    
+    box-shadow: 0 6px 12px rgba(0,0,0,0.25);   
 }
+
+
 button:hover {
   background-color:#3f6bcb ;
-  cursor:grab;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+  cursor:pointer;
 }
 
 
@@ -71,7 +74,7 @@ margin-top: 6rem;
   width: 30%;
   text-align: center;
   border-radius: 12px;
-  box-shadow: 10px 20px 30px 1px;
+   box-shadow: 10px 20px 20px -15px;
  
   
 }
