@@ -21,6 +21,10 @@ ul {
   display: flex;
   list-style: none;
 }
+li:hover{
+  background-color: rgb(127, 123, 123);
+  border-radius: 1em;
+}
 .header a {
   color: white;
   text-decoration: none;
